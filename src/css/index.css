@@ -1,0 +1,132 @@
+html, body {
+  font-family: Avenir !important;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+}
+
+a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.navbar {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #AD1457;
+}
+
+.splash {
+  color: white;
+  height: calc(100vh - 82px);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../images/circle.svg"), linear-gradient(#AD1457, #E91E63); /* W3C */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.splash .header {
+  max-width: 600px;
+}
+
+.about {
+  height: calc(100vh - 100px);
+  padding-top: 100px;
+}
+
+.about .header {
+  text-align: center;
+}
+
+.about .about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about .profile-image-container {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .profile-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-image: url("../images/profile-pic.jpg");
+  background-size: 300px;
+}
+
+.about .description {
+  color: #4A4A4A;
+  min-width: 200px;
+  max-width: 400px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects .row {
+
+}
+
+.projects img {
+  height: 150px;
+  width: 150px;
+
+  margin: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.projects img:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.footer {
+  color: white;
+  height: 300px;
+  padding-top: 40px;
+  background: linear-gradient(#AD1457, #E91E63);
+}
+
+.footer .social-media {
+  max-width: 500px;
+  padding: 20px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer .social-media img {
+  height: 70px;
+  width: 70px;
+}
+
+.footer .copyright {
+  text-align: center;
+}
