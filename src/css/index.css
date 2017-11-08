@@ -1,8 +1,8 @@
 /* 480px, 768px, 1024px */
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 480px) {
   a {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   h1 {
@@ -13,19 +13,23 @@
     max-width: 300px;
   }
 
+  .about {
+    height: 75vh !important;
+  }
+
   .about .profile-image-container {
     padding: 40px 0 20px 0;
   }
 
   .about .profile-image {
-    height: 200px;
-    width: 200px;
-    background-size: 200px;
+    height: 60vw;
+    width: 60vw;
+    background-size: 60vw;
   }
 
   .about .description {
     width: 80%;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .projects .row {
@@ -34,12 +38,12 @@
   }
 
   .projects img {
-    height: 300px;
-    width: 300px;
+    height: 80vw;
+    width: 80vw;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   a {
     font-size: 24px;
   }
@@ -52,6 +56,12 @@
     max-width: 500px;
   }
 
+  .about .profile-image {
+    height: 250px;
+    width: 250px;
+    background-size: 250px;
+  }
+
   .about .description {
     width: 50%;
     font-size: 24px;
@@ -62,16 +72,16 @@
   }
 
   .projects img {
-    height: 200px;
-    width: 200px;
+    height: 22vw;
+    width: 22vw;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 769px) {
   a {
     font-size: 24px;
   }
-  
+
   h1 {
     font-size: 48px;
   }
@@ -100,8 +110,8 @@
   }
 
   .projects img {
-    height: 250px;
-    width: 250px;
+    height: 22vw;
+    width: 22vw;
   }
 }
 
