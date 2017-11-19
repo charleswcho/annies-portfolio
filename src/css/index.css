@@ -15,6 +15,7 @@
 
   .about {
     height: 75vh !important;
+    padding-top: 40px;
   }
 
   .about .profile-image-container {
@@ -112,6 +113,13 @@
   .projects img {
     height: 22vw;
     width: 22vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .projects img {
+    height: 18vw;
+    width: 18vw;
   }
 }
 
